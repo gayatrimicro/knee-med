@@ -1,0 +1,382 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Montserrat', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------Custom css-----------*/
+
+.row{
+	margin: 0px !important;
+}
+.Btn_S{
+	background-color: #0d295b;
+    padding: 21px 40px;
+    font-size: 15px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.Btn_S:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.navbr img{
+	width: 271px;
+}
+.navbr{
+	padding: 10px 0px;
+    border-bottom: thin solid #ececec;
+}
+.navbr .container{
+	padding: 0px;
+}
+.Btn_S1{
+	background-color: #0d295b;
+    padding: 18px 40px;
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.Btn_S1:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.navbr ul li{
+	display: inline-block;
+	margin-right: 30px;
+    margin-top: 15px;
+}
+.navbr ul li a{
+	color: #000;
+	font-weight: 300;
+    letter-spacing: 1px;
+}
+.banner img{
+	width: 100%;
+	vertical-align: middle;
+}
+.pad_0{
+	padding: 0px;
+}
+.active a{
+	color: #fff !important;
+    background: #0056ba;
+    padding: 8px 13px;
+    border-radius: 5px;
+}
+.inner_banner{
+	position: relative;
+}
+.PosCon{
+	position: absolute;
+	top: 15%;
+    left: 10%;
+    text-align: center;
+}
+.PosCon h1{
+	color: rgba(239, 23, 23, 0.85);
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+.PosCon h3{
+	color: rgba(239, 23, 23, 0.85);
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-top: 10px;
+}
+.Btn_S2{
+	background-color: rgba(239, 23, 23, 0.85);
+	color: #fff;
+    display: inline-block;
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-top: 30px
+}
+.Btn_S2:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.small_banner{	
+    color: #fff;
+    padding: 40px 100px;
+}
+.small_banner h3{
+	    font-size: 24px;
+    font-weight: 200;
+    margin-top: 15px;
+}
+.Btn_S3{
+	border-color: #d0951e #c78e1d #b9851b #c78e1d;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #dd9e20), color-stop(1, #e5b24b));
+    color: #000;
+    padding: 17px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    display: inline-block;
+}
+.Btn_S3:hover{
+	text-decoration: none;
+	color: #000;
+}
+.borrd img{
+	    width: 450px;
+    border-radius: 50%;
+}
+.LftRight{
+	padding: 80px 0px;
+}
+.LftRight h2{
+	font-size: 40px;
+    color: #1e73be;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+}
+.LftRight p{
+	font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.LftRight b{
+	font-weight: bold;
+	color: #002e9b;
+}
+.clrr{
+	background-color: #dd3333;
+}
+.clrb{
+	background-color: #1e73be;
+}
+.clry{
+	background-color: #f9d711;
+}
+.LftRight2 img{
+	width: 100%;
+	vertical-align: middle;
+}
+.LftRight2 h2{
+	font-size: 33px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    color: #1e73be;
+}
+.LftRight2 p{
+	font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.IcoLR{
+	background-color: #0056ba;
+	width: 50px;
+    height: 50px;
+    color: #fff;
+    margin: 0 auto;
+}
+.COnLR h5{
+	color: #1e73be;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.COnLR p{
+	font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: #909090;
+}
+.Mart50{
+	margin-top: 50px !important;
+}
+.LftRight2{
+	background-color: #f2f2f2;
+}
+.wfu img{
+	width: 425px;
+}
+.wfu p{
+	line-height: 30px;
+	font-size: 17px;
+}
+.wfu h3{
+	font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: #1e73be;
+}
+.Btn_S5{
+	border-color: #b01d1d #a81c1c #9a1a1a #a81c1c;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #bd2020), color-stop(1, #dd3333));
+    color: #fff;
+    padding: 17px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    display: inline-block;
+}
+.Btn_S5:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.bacimg{
+	background-image: url(../img/background-testimonials-knee-pain-injection-1-scaled.jpg);
+}
+.LftRight2 h3{
+	font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: #1e73be;
+}
+.testBox img{
+	width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.testBox h5{
+	font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.testBox p{
+	padding: 0px 100px;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+.contactfrm img{
+	width: 100%;
+	vertical-align: middle;
+}
+.contactfrm{
+	position: relative;
+}
+.ContactBox{
+	position: absolute;
+    width: 45%;
+    left: 0;
+    margin: 0 auto;
+    top: 13%;
+    right: 0;
+}
+.ContactBox .row{
+	margin-bottom: 35px !important;
+}
+.ContactBox input{
+	height: 45px;
+	padding: 0px 15px;
+}
+.ContactBox label{
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+.ContactBox select{
+	height: 45px;
+	padding: 0px 15px;
+}
+.Mart25{
+	margin-top: 25px;
+}
+.footer_sec{
+	background-color: #314a89;
+	    padding: 50px 0px;
+}
+.footer_sec h6{
+	margin-bottom: 25px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 300;
+}
+.footer_sec p{
+	font-size: 17px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer_sec p a{
+	color: #fff
+}
+.footer_sec ul{
+	padding: 45px 0px;
+}
+.footer_sec h4{
+	font-size: 17px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.footer_sec ul li a{
+	color: #fff;
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 200;
+    font-size: 15px;
+}
+.copyrightMrk{
+	background-color: #1d3675;
+	padding: 25px 0px;
+}
+.copyrightMrk p{
+	color: #fff;
+	font-size: 13px;
+    font-weight: 300;
+}
+.copyrightMrk a{
+	color: #fff;
+}
+.copyrightMrk a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
