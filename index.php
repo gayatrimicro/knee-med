@@ -6,6 +6,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="css/media.css">
   	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">  	
 </head>
@@ -63,7 +64,7 @@
 	<section class="small_banner clrr">
 		<div class="row">
 			<div class="col-sm-9"><h3>Learn more about our Knee Pain Relief Program and schedule your FREE Info-Visit Today!</h3></div>
-			<div class="col-sm-3"><a href="tel:(123) 456-7890" class="Btn_S3">Call us Now! (123) 456-7890</a></div>
+			<div class="col-sm-3"><a href="tel:(123) 456-7890" class="Btn_S3">Call us! (123) 456-7890</a></div>
 		</div>
 	</section>
 	<!----------------small banner End------------------->
