@@ -378,5 +378,134 @@ table {
 	text-decoration: none;
 }
 
+/*-------About-------------*/
+
+.bacClrabt{
+	background-color: #1e73be;
+}
+.bacClrabt h4{
+	color: #fff;
+	margin-bottom: 35px;
+    font-size: 33px;
+}
+.bacClrabt p {
+    color: #fff;
+}
+.bacClrabt .PAdLbx{
+	padding: 80px;
+}
+.MarB15{
+	margin-bottom: 15px;
+}
+.img100 img{
+	width: 100%;
+}
+.gall{
+	background-color: #dd3333;
+	padding: 50px 100px;
+	text-align: center;
+}
+.gall .Btn_S3{
+	margin-top: 50px;
+}
+.gall h3{
+	    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 65px;
+    position: relative;
+}
+.gall h3::after{
+	content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.Fon18{
+	font-size: 21px !important;
+}
+.MarT30{
+	margin-top: 30px;
+}
+.MobileNav{
+	display: none;
+}
+
+/*----------------responsive mobile start----------------------*/
+@media(min-width: 320px) and (max-width: 767px){
+	.navbr{
+	display: none;
+}
+.MobileNav{
+	display: block;
+	position: relative;
+}
+.MobInner{
+	text-align: center;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
+}
+.MobInner img{
+	width: 180px;
+	margin-bottom: 17px;
+}
+.clikMenuIco{
+	    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #0056ba;
+    color: #fff;
+    border-radius: 50%;
+    padding: 11px 0px;
+    border: 5px solid #fff;
+    bottom: -25px;
+    z-index: 10;
+    left: 0;
+    right: 0;
+}
+.PosMobMen{
+	position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    z-index: 1;
+    padding: 30px 25px;
+    transition: 0.8s all;
+    top: -1000px;
+}
+.PosMobMen ul li{
+	padding: 18px 0px;
+	border-bottom: 1px solid #ddd;
+}
+.PosMobMen ul li a{
+	color: #000;
+	font-weight: 300;
+}
+.PosMobMen .Btn_S1 {
+    padding: 15px 40px;
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+}
+.hauto{
+	top: 92px;
+	transition: 0.8s all;
+}
+.cls{
+	display: none !important;
+}
+
+}
+/*----------------responsive mobile end-----------------------*/
+
 
 
