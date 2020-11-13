@@ -172,7 +172,7 @@ table {
 	color: #000;
 }
 .borrd img{
-	    width: 450px;
+	    width: 100%;
     border-radius: 50%;
 }
 .LftRight{
@@ -242,8 +242,11 @@ table {
 	background-color: #f2f2f2;
 }
 .wfu img{
-	width: 425px;
+	width: 100%;
 }
+/*.banner{
+	height:90vh
+}*/
 .wfu p{
 	line-height: 30px;
 	font-size: 17px;
@@ -378,6 +381,7 @@ table {
 	text-decoration: none;
 }
 
+
 /*-------About-------------*/
 
 .bacClrabt{
@@ -506,6 +510,136 @@ table {
 
 }
 /*----------------responsive mobile end-----------------------*/
+
+
+@media (max-width: 1890px) and (min-width: 1025px){
+	.LftRight2 img {
+	    width: 100%;
+	    vertical-align: middle;
+	    height: 100%;
+	    object-fit: cover;
+	}
+	.banner img {
+	    width: 100%;
+	    object-fit: cover;
+	    height: 90vh;
+	    vertical-align: middle;
+	}
+	.banner{
+		height: 90vh;
+	}
+	.testBox img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.LftRight2 h3 {
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: #1e73be;
+}
+.testBox {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.contactfrm img {
+    width: 100%;
+    vertical-align: middle;
+    height: 60vh;
+    object-fit: cover;
+    object-position: right;
+}
+}
+
+@media (max-width: 600px){
+.PosCon {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    text-align: center;
+}
+.banner img {
+    width: 100%;
+    height: 100vh;
+    vertical-align: middle;
+    object-fit: cover;
+}
+.banner {
+    height: 100vh;
+}
+.small_banner {
+    color: #fff;
+    padding: 25px 5px 35px;
+}
+.Btn_S3, .Btn_S5, .Btn_S1 {
+    padding: 17px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    display: block;
+    margin: 15px auto 0;
+    text-align: center;
+}
+.small_banner h3 {
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+.LftRight h2{
+	margin-top: 25px;
+}
+.contactfrm{
+	height: 100vh;
+}
+.footer_sec{
+	text-align: center;
+}
+.contactfrm img {
+    width: 100%;
+    vertical-align: middle;
+    height: 100vh;
+    object-fit: cover;
+    object-position: left;
+}
+.ContactBox {
+    position: absolute;
+    width: 95%;
+    left: 0;
+    margin: 0 auto;
+    top: 13%;
+    right: 0;
+}
+.ContactBox .row {
+    margin-bottom: 20px !important;
+}
+.ContactBox .col-sm-6{
+	margin-bottom: 20px !important;
+}
+.ContactBox label {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.COnLR h5 {
+    color: #1e73be;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 18px;
+}
+.COnLR{
+	margin-bottom: 25px;
+}
+.testmonialSlider .testBox{
+	margin-bottom: 50px;
+}
+.testBox p{
+	padding: 0px 10px;
+}
+}
+
 
 
 
